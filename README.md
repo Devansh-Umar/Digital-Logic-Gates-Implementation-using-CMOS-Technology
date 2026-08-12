@@ -7,15 +7,16 @@ In **CMOS (Complementary Metal-Oxide-Semiconductor) technology**, logic gates ar
 While studying **CMOS Digital & VLSI Design in my 5th sem**, I wanted to understand how the Boolean expressions that we normally solve on paper are translated into actual transistor connections. Instead of only reading the theory, I recreated each basic CMOS gate in LTspice and verified its operation through transient simulation.
 
 ### Quick Comparison of my all-Implemented CMOS Gates 
-| Gate |	| Boolean Expression |	| Output becomes High when... |
-|--------|--------|-------|
-| NOT |	| A` |	| Input is LOW |
-| NAND |	| (A.B)` |	| At least one input is LOW |
-|NOR|	|(A + B)`|	|Both inputs are LOW|
-AND	A.B	Both inputs are HIGH
-OR	A + B	Any input is HIGH
-XNOR	AB + A`B` Or Y = A  B	Inputs are different
-XOR	AB` + A`B Or Y = A  B	Inputs are the same
+
+| Gate | Boolean Expression | Output becomes High when... |
+| :--------: | :--------: | :-------: |
+| NOT | A` | Input is LOW |
+| NAND | (A.B)`	| At least one input is LOW |
+| NOR | (A + B)` | Both inputs are LOW |
+| AND |	A.B	| Both inputs are HIGH |
+| OR	| A + B	| Any input is HIGH |
+| XNOR | AB + A_Bar B_Bar |	Both Inputs are different |
+| XOR |	AB_Bar + A_Bar B |	Both Inputs are the same |
 
 ### Observations
 During the initial stage, I recreated **NOT, NAND and NOR gates** using ***Logisim Evolution*** because it provides a simple transistor-level interface similar to classroom circuit diagrams.
@@ -34,3 +35,8 @@ Before starting this project, CMOS gates were simply logic symbols and Boolean e
 One unexpected learning during this project was the **limitation I encountered in Logisim Evolution.** Although it was useful for understanding individual transistor-based gates, combining those gates into larger CMOS networks didn't always produce the expected behaviour. That experience itself was valuable because it showed me why LTspice is preferred for **transistor-level verification**.
 
 This project wasn't about creating a complex design. It was about slowing down and understanding how digital logic is physically implemented before moving on to larger CMOS circuits and VLSI design.
+
+### Want to have Quick Review of Discrete Simulation of Logisim Evolution?
+[Click Here]()
+
+If you find this project useful, a star ⭐ on my repository would be memorable for me.
