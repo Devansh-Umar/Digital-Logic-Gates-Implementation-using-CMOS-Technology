@@ -44,6 +44,9 @@ This project wasn't about creating a complex design. It was about slowing down a
 
 
 ### Want to have Quick Review of Discrete Simulation of Logisim Evolution?
-[Click Here]()
+[Click Here](Discrete_Simulation_Visuals.mp4)
+
+### To understand the Topic properly see the report
+[CMOS Gates Report](CMOS_Gates_Report.pdf)
 
 If you find this project useful, a star ⭐ on my repository would be memorable for me.
