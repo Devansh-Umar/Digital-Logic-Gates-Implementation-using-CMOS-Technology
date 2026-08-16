@@ -13,18 +13,18 @@ While studying **CMOS Digital & VLSI Design in my 5th sem**, I wanted to underst
 
 | Gate | Boolean Expression | Output becomes High when... |
 | :--------: | :--------: | :-------: |
-| NOT | A` | Input is LOW |
-| NAND | (A.B)`	| At least one input is LOW |
-| NOR | (A + B)` | Both inputs are LOW |
+| NOT | A_Bar | Input is LOW |
+| NAND | (A.B)_Bar	| At least one input is LOW |
+| NOR | (A + B)_Bar | Both inputs are LOW |
 | AND |	A.B	| Both inputs are HIGH |
 | OR	| A + B	| Any input is HIGH |
-| XNOR | AB + A_Bar B_Bar |	Both Inputs are different |
-| XOR |	AB_Bar + A_Bar B |	Both Inputs are the same |
+| XNOR | AB + A_Bar B_Bar |	Both Inputs are same |
+| XOR |	A_Bar B + AB_Bar |	Both Inputs are different |
 
 
 ### Observations
 During the initial stage, I recreated **NOT, NAND and NOR gates** using ***Logisim Evolution*** because it provides a simple transistor-level interface similar to classroom circuit diagrams.
-However, while combining those gates to build more complex logic (such as AND and OR using CMOS inverters), the simulator did not behave as expected for my transistor-level implementation. So, I switch back to my **LTspice.**
+However, while combining those gates to build more complex logic (such as AND and OR using CMOS inverters), the simulator did not behave as expected for my transistor-level implementation. So, I switched back to my **LTspice.**
 
 
 ### What I Learned
